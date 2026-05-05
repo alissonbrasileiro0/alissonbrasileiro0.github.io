@@ -1,0 +1,160 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+.bio-wrap{background:#0D0D0D;font-family:'Inter',sans-serif;display:flex;flex-direction:column;align-items:center;padding:32px 16px 48px;color:#fff;min-height:600px}
+.bio-container{width:100%;max-width:380px;display:flex;flex-direction:column;align-items:center}
+.av-wrap{position:relative;margin-bottom:14px}
+.av-ring{width:80px;height:80px;border-radius:50%;border:2.5px solid #C8FF00;display:flex;align-items:center;justify-content:center;background:#141414}
+.av-letter{font-size:30px;font-weight:900;color:#C8FF00}
+.av-badge{position:absolute;bottom:-2px;right:-2px;background:#C8FF00;color:#111;font-size:8px;font-weight:800;padding:2px 7px;border-radius:20px}
+.bio-name{font-size:20px;font-weight:900;text-align:center}
+.bio-handle{font-size:12px;color:#666;margin-top:2px}
+.bio-tag{display:inline-flex;align-items:center;gap:6px;background:#151515;border:1px solid #222;border-radius:20px;padding:4px 12px;font-size:10px;color:#C8FF00;font-weight:700;letter-spacing:1px;margin:8px 0 4px}
+.bio-dot{width:5px;height:5px;border-radius:50%;background:#C8FF00}
+.bio-desc{font-size:12px;color:#888;text-align:center;line-height:1.6;max-width:280px;margin:6px 0 18px}
+.bio-divider{width:36px;height:2px;background:#C8FF00;border-radius:2px;margin-bottom:20px}
+.btn-group{width:100%;display:flex;flex-direction:column;gap:10px}
+.bbt{width:100%;display:flex;align-items:center;gap:12px;padding:13px 16px;border-radius:12px;border:1px solid #222;background:#141414;color:#fff;text-decoration:none;font-size:13px;font-weight:700;cursor:pointer;transition:border-color .2s}
+.bbt:hover{border-color:#C8FF00}
+.bbt.pri{background:#C8FF00;color:#111;border-color:#C8FF00}
+.bbt.pri .barr{color:#111}
+.bbt.pri:hover{background:#d4ff1a}
+.bicon{width:34px;height:34px;border-radius:8px;background:#222;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.bbt.pri .bicon{background:rgba(0,0,0,.15)}
+.bicon svg{width:18px;height:18px}
+.btxt{flex:1}
+.btitle{display:block;font-size:13px;font-weight:700}
+.bsub{display:block;font-size:10px;opacity:.6;margin-top:1px}
+.barr{font-size:14px;color:#555}
+.slbl{width:100%;font-size:9px;color:#555;letter-spacing:2px;text-transform:uppercase;margin:20px 0 10px;font-weight:600}
+.stats{width:100%;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.sc{background:#1A1A1A;border:1px solid #222;border-radius:10px;padding:12px 8px;text-align:center}
+.sc .sn{font-size:17px;font-weight:900;color:#C8FF00}
+.sc .sl{font-size:8px;color:#555;margin-top:2px;line-height:1.4}
+.fcard{width:100%;background:#141414;border:1px solid #222;border-radius:14px;padding:18px}
+.ftitle{font-size:14px;font-weight:800;margin-bottom:3px}
+.fsub{font-size:11px;color:#666;margin-bottom:14px;line-height:1.5}
+.finput{width:100%;background:#0D0D0D;border:1px solid #222;border-radius:9px;padding:11px 13px;color:#fff;font-size:12px;font-family:'Inter',sans-serif;margin-bottom:9px;outline:none;-webkit-appearance:none;appearance:none}
+.finput:focus{border-color:#C8FF00}
+.finput::placeholder{color:#333}
+.fsubmit{width:100%;background:#C8FF00;color:#111;border:none;border-radius:9px;padding:12px;font-size:13px;font-weight:800;cursor:pointer;font-family:'Inter',sans-serif}
+.fsubmit:hover{background:#d4ff1a}
+.fok{display:none;text-align:center;padding:12px;background:#0f1f00;border:1px solid #3a6600;border-radius:9px;font-size:12px;color:#C8FF00;font-weight:700;margin-top:8px}
+.srow{display:flex;gap:8px;width:100%}
+.sbtn{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;padding:12px 8px;border-radius:12px;border:1px solid #222;background:#141414;color:#fff;text-decoration:none;font-size:10px;font-weight:600;cursor:pointer;transition:border-color .2s}
+.sbtn:hover{border-color:#C8FF00}
+.sbtn svg{width:20px;height:20px}
+.bfooter{margin-top:28px;text-align:center;font-size:10px;color:#2a2a2a;line-height:1.8}
+.bfooter span{color:#C8FF00}
+</style>
+
+<div class="bio-wrap">
+<div class="bio-container">
+
+  <div class="av-wrap">
+    <div class="av-ring"><div class="av-letter">AB</div></div>
+    <div class="av-badge">CEO</div>
+  </div>
+
+  <div class="bio-name">Alisson Brasileiro</div>
+  <div class="bio-handle">@alissonbrasileiro0</div>
+  <div class="bio-tag"><div class="bio-dot"></div>Fundador · Nexa Marketing</div>
+  <p class="bio-desc">Jovem empreendedor apaixonado por marketing digital. Ajudo empresas a crescerem com estratégia, identidade e resultado.</p>
+  <div class="bio-divider"></div>
+
+  <div class="btn-group">
+
+    <a class="bbt pri" href="https://wa.me/5585920067231?text=Oi%20Alisson!%20Vi%20seu%20perfil%20e%20quero%20saber%20mais%20sobre%20a%20Nexa%20Marketing." target="_blank">
+      <div class="bicon">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="rgba(0,0,0,.2)"/><path d="M16.8 14.7c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1-.1.2-.6.7-.7.9-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.6-.6-1.1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.3-.4c.1-.1.1-.2.2-.4 0-.1 0-.3 0-.4 0-.1-.5-1.2-.7-1.6-.2-.4-.4-.4-.5-.4h-.4c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.1 1.6 2.4 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.2z" fill="#111"/></svg>
+      </div>
+      <div class="btxt"><span class="btitle">Falar no WhatsApp</span><span class="bsub">Respondo em menos de 1h</span></div>
+      <span class="barr">→</span>
+    </a>
+
+    <a class="bbt" href="https://www.instagram.com/nexamarketing.ofc/" target="_blank">
+      <div class="bicon">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="#C8FF00" stroke-width="1.8"/><circle cx="12" cy="12" r="4.5" stroke="#C8FF00" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1" fill="#C8FF00"/></svg>
+      </div>
+      <div class="btxt"><span class="btitle">Instagram da Nexa</span><span class="bsub">@nexamarketing.ofc</span></div>
+      <span class="barr">→</span>
+    </a>
+
+    <a class="bbt" href="https://nexamarketing.github.io/nexamarketing/" target="_blank">
+      <div class="bicon">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="14" rx="3" stroke="#C8FF00" stroke-width="1.8"/><path d="M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2" stroke="#C8FF00" stroke-width="1.8" stroke-linecap="round"/><path d="M12 12v2M10 14h4" stroke="#C8FF00" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </div>
+      <div class="btxt"><span class="btitle">Portfólio Nexa</span><span class="bsub">Cases e resultados reais</span></div>
+      <span class="barr">→</span>
+    </a>
+
+    <a class="bbt" href="#diag" onclick="document.getElementById('diag').scrollIntoView({behavior:'smooth'});return false;">
+      <div class="bicon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="#C8FF00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="#C8FF00" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </div>
+      <div class="btxt"><span class="btitle">Diagnóstico Gratuito</span><span class="bsub">Analiso seu perfil sem custo</span></div>
+      <span class="barr">↓</span>
+    </a>
+
+  </div>
+
+  <div class="slbl">resultados que entregamos</div>
+  <div class="stats">
+    <div class="sc"><div class="sn">+150%</div><div class="sl">alcance médio</div></div>
+    <div class="sc"><div class="sn">3×</div><div class="sl">mais leads/mês</div></div>
+    <div class="sc"><div class="sn">48h</div><div class="sl">estratégia pronta</div></div>
+  </div>
+
+  <div class="slbl" id="diag" style="margin-top:28px;">diagnóstico gratuito</div>
+  <div class="fcard">
+    <div class="ftitle">Quero crescer minha marca</div>
+    <div class="fsub">Deixa seus dados e eu analiso sua presença digital gratuitamente. Sem compromisso.</div>
+    <input class="finput" type="text" id="fn" placeholder="Seu nome" />
+    <input class="finput" type="text" id="fi" placeholder="Seu @ do Instagram" />
+    <input class="finput" type="text" id="fs" placeholder="Segmento (ex: restaurante, loja...)" />
+    <select class="finput" id="fb">
+      <option value="" disabled selected>Orçamento mensal disponível</option>
+      <option>Ainda não sei</option>
+      <option>Até R$ 500/mês</option>
+      <option>R$ 500 – R$ 1.500/mês</option>
+      <option>R$ 1.500 – R$ 3.000/mês</option>
+      <option>Acima de R$ 3.000/mês</option>
+    </select>
+    <button class="fsubmit" onclick="enviar()">Quero meu diagnóstico grátis →</button>
+    <div class="fok" id="fok">Recebido! Alisson vai analisar seu perfil em breve. 🟢</div>
+  </div>
+
+  <div class="slbl">também me encontre em</div>
+  <div class="srow">
+    <a class="sbtn" href="https://www.instagram.com/nexamarketing.ofc/" target="_blank">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="#C8FF00" stroke-width="1.6"/><circle cx="12" cy="12" r="4.5" stroke="#C8FF00" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="#C8FF00"/></svg>
+      Instagram
+    </a>
+    <a class="sbtn" href="https://wa.me/5585920067231" target="_blank">
+      <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#1a1a1a"/><path d="M16.8 14.7c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1-.1.2-.6.7-.7.9-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.6-.6-1.1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.3-.4c.1-.1.1-.2.2-.4 0-.1 0-.3 0-.4 0-.1-.5-1.2-.7-1.6-.2-.4-.4-.4-.5-.4h-.4c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.1 1.6 2.4 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.2z" fill="#C8FF00"/></svg>
+      WhatsApp
+    </a>
+    <a class="sbtn" href="https://nexamarketing.github.io/nexamarketing/" target="_blank">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="14" rx="3" stroke="#C8FF00" stroke-width="1.6"/><path d="M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2" stroke="#C8FF00" stroke-width="1.6" stroke-linecap="round"/><path d="M12 12v2M10 14h4" stroke="#C8FF00" stroke-width="1.6" stroke-linecap="round"/></svg>
+      Portfólio
+    </a>
+  </div>
+
+  <div class="bfooter">Feito com estratégia por <span>Nexa Marketing</span><br>© 2026 · @alissonbrasileiro0</div>
+
+</div>
+</div>
+
+<script>
+function enviar(){
+  var n=document.getElementById('fn').value.trim();
+  var i=document.getElementById('fi').value.trim();
+  var s=document.getElementById('fs').value.trim();
+  var b=document.getElementById('fb').value;
+  if(!n||!i||!s||!b){alert('Preencha todos os campos.');return;}
+  var msg=encodeURIComponent('Olá Alisson! Vim pelo link da bio e quero o diagnóstico gratuito.\n\nNome: '+n+'\nInstagram: '+i+'\nSegmento: '+s+'\nOrçamento: '+b);
+  window.open('https://wa.me/5585920067231?text='+msg,'_blank');
+  document.getElementById('fok').style.display='block';
+}
+</script>
