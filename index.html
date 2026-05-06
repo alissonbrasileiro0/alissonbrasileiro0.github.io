@@ -1,5 +1,10 @@
-
-<style>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alisson Brasileiro | Nexa Marketing</title>
+  <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 .bio-wrap{background:#0D0D0D;font-family:'Inter',sans-serif;display:flex;flex-direction:column;align-items:center;padding:32px 16px 48px;color:#fff;min-height:600px}
@@ -47,8 +52,36 @@
 .sbtn svg{width:20px;height:20px}
 .bfooter{margin-top:28px;text-align:center;font-size:10px;color:#2a2a2a;line-height:1.8}
 .bfooter span{color:#C8FF00}
-</style>
 
+@media (max-width: 480px) {
+  .bio-wrap { padding: 24px 12px 36px; }
+  .bio-container { max-width: 100%; padding: 0 8px; }
+  .av-ring { width: 70px; height: 70px; }
+  .av-letter { font-size: 26px; }
+  .bio-name { font-size: 18px; }
+  .bio-desc { font-size: 11px; max-width: 100%; }
+  .bbt { padding: 11px 14px; font-size: 12px; }
+  .bicon { width: 30px; height: 30px; }
+  .bicon svg { width: 16px; height: 16px; }
+  .btitle { font-size: 12px; }
+  .bsub { font-size: 9px; }
+  .stats { grid-template-columns: 1fr; gap: 6px; }
+  .sc { padding: 10px 6px; }
+  .sc .sn { font-size: 15px; }
+  .sc .sl { font-size: 7px; }
+  .fcard { padding: 16px; }
+  .ftitle { font-size: 13px; }
+  .fsub { font-size: 10px; }
+  .finput { padding: 10px 12px; font-size: 11px; }
+  .fsubmit { padding: 11px; font-size: 12px; }
+  .srow { flex-direction: column; gap: 6px; }
+  .sbtn { padding: 10px 6px; font-size: 9px; }
+  .sbtn svg { width: 18px; height: 18px; }
+  .bfooter { font-size: 9px; margin-top: 20px; }
+}
+  </style>
+</head>
+<body>
 <div class="bio-wrap">
 <div class="bio-container">
 
@@ -158,3 +191,5 @@ function enviar(){
   document.getElementById('fok').style.display='block';
 }
 </script>
+</body>
+</html>
